@@ -5,7 +5,12 @@
     "target": "es2024",
     "skipLibCheck": true,
     "strict": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "types": ["node"]
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "prisma/**/*.ts", // Inclui arquivos TS dentro da pasta prisma
+    "prisma.config.ts" // Inclui o arquivo de config específico
+  ]
 }
