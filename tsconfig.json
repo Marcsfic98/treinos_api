@@ -11,6 +11,7 @@
   "include": [
     "src",
     "prisma/**/*.ts", // Inclui arquivos TS dentro da pasta prisma
-    "prisma.config.ts" // Inclui o arquivo de config específico
+    "prisma.config.ts", // Inclui o arquivo de config específico
+    "index.ts"
   ]
 }
