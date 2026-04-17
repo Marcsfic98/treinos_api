@@ -34,7 +34,7 @@ await app.register(fastifySwagger, {
 
 
 await app.register(fastifyCors,{
-  origin: ["http://localhost:3000"],
+  origin: true,
   credentials: true,
 })
 
